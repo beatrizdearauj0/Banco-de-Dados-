@@ -1,0 +1,190 @@
+/* Estilo geral para a lista de educação */
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    margin: 1rem 0;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden; /* Garante que nada ultrapasse o contêiner */
+}
+
+.faculdade-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.education li {
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+    justify-content: flex-start; /* Alinha o conteúdo ao topo */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    margin: 1rem 0;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    overflow: hidden; /* Garante que nada ultrapasse o contêiner */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.education .education-content {
+    flex: 1;
+}
+
+.logo-faculdade {
+    margin-right: .5rem;
+}
+
+.logo-faculdade img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.education li h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    word-break: break-word; /* Quebra de palavra para títulos */
+    overflow-wrap: break-word; /* Garante quebra de linha apropriada */
+    white-space: normal; /* Permite quebra de linha automática */
+    min-width: 0; /* Permite que o título quebre linha adequadamente */
+}
+
+.education li p {
+    font-size: 1rem; /* Tamanho da fonte padrão */
+    margin: 0.5rem 0; /* Margem para separar os parágrafos */
+    word-break: break-word; /* Quebra palavras longas para evitar overflow */
+    overflow-wrap: break-word; /* Garante a quebra de palavras */
+    white-space: normal; /* Permite quebra de linha */
+}
+
+/* Estilo para imagens de certificado */
+.education li .certificado-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza a imagem e o conteúdo */
+    margin-top: 1rem;
+    overflow: hidden; /* Garante que nada ultrapasse o contêiner */
+}
+
+.education li .certificado-details img.certificado-img {
+    max-width: 100%; /* Ajusta a largura da imagem para não ultrapassar o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: contain; /* Ajusta a imagem para preencher o contêiner mantendo a proporção */
+    display: block;
+    border-radius: 1rem;
+    margin-top: .5rem;
+}
+
+/* Estilo para links */
+.education li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.education li a:hover {
+    color: #0056b3;
+}
+
+/* Estilo para a seção de formação acadêmica */
+.faculdade-info {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+.faculdade-info h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    word-break: break-word; /* Quebra de palavra para títulos */
+    overflow-wrap: break-word; /* Garante quebra de linha apropriada */
+    white-space: normal; /* Permite quebra de linha automática */
+    min-width: 0; /* Permite que o título quebre linha adequadamente */
+}
+
+.faculdade-info p {
+    font-size: 1rem; /* Tamanho da fonte padrão */
+    margin: 0,8rem 0; /* Margem para separar os parágrafos */
+    word-break: break-word; /* Quebra palavras longas para evitar overflow */
+    overflow-wrap: break-word; /* Garante a quebra de palavras */
+    white-space: normal; /* Permite quebra de linha */
+}
+
+/* Media Queries para ajustar o layout em diferentes tamanhos de tela */
+
+/* Ajustes para telas grandes */
+@media (min-width: 768px) {
+    .education {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .education li {
+        width: calc(50% - 1rem);
+        margin: 0.5rem;
+        text-align: left; /* Mantém o texto alinhado à esquerda */
+    }
+
+    .education-item {
+        width: calc(50% - 1rem);
+        margin: 0.5rem;
+    }
+
+    .education li .certificado-details {
+        align-items: center; /* Mantém o conteúdo centralizado */
+        text-align: center; /* Centraliza o texto dentro do contêiner do certificado */
+    }
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 767px) {
+    .education-item {
+        flex-direction: column; /* Altera a direção do layout para coluna em telas menores */
+   
+    }
+
+    .education li {
+        width: 100%; /* Largura total em telas pequenas */
+        margin: 0.5rem 0; /* Margem ajustada para telas pequenas */
+        
+    }
+
+
+}
+
+/* Ajustes para telas muito pequenas */
+@media (max-width: 480px) {
+    .education li h2 {
+        font-size: 1.2rem; /* Reduz o tamanho do título em telas muito pequenas */
+    }
+
+    .faculdade-info h2 {
+        font-size: 1.2rem; /* Reduz o tamanho do título em telas muito pequenas */
+    }
+
+    .faculdade-info p {
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte para telas muito pequenas */
+        margin: 0.25rem 0; /* Margens menores para telas muito pequenas */
+    }
+}

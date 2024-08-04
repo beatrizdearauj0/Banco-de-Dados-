@@ -1,0 +1,84 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.position {
+    font-weight: bold; /* Destaca o título */
+    display: flex; /* Garante que o conteúdo será alinhado corretamente */
+    align-items: center; /* Alinha a logo e o título verticalmente */
+    font-size: 2rem;
+}
+
+.position::before {
+    content: '';
+    display: inline-block;
+    background-image: url('/assets/img/icons/Person-icon.png');
+    background-size: contain; /* Ajusta a imagem para caber no bloco */
+    background-repeat: no-repeat;
+    width: 3rem; /* ajuste conforme necessário */
+    height: 3rem; /* ajuste conforme necessário */
+    margin-right: 0.5rem; /* ajuste conforme necessário */
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd; /* Adiciona uma borda ao redor da experiência */
+    border-radius: 1rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento entre experiências */
+}
+
+.title-container {
+    display: flex;
+    align-items: center; /* Alinha a logo e o título verticalmente */
+    margin-bottom: 0.75rem; /* Espaçamento abaixo do título */
+}
+
+.logo {
+    width: 4rem; 
+    height: 4rem;
+    border-radius: 1rem;
+    margin-right: 0.75rem; /* Espaçamento entre a logo e o título */
+}
+
+.title {
+    font-size: 1.2rem; /* Ajusta o tamanho do título */
+    font-weight: bold; /* Destaca o título */
+}
+
+.experience-item .period {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    align-items: center; /* Alinha itens ao centro */
+}
+
+.experience-item .period::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url('/assets/img/icons/calender.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.experience-item .description {
+    display: block;
+    width: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+@media (max-width: 600px) {
+    .experience-item .period {
+        flex-direction: column; /* Muda a direção para coluna em telas pequenas */
+        align-items: flex-start; /* Alinha itens ao início */
+    }
+}

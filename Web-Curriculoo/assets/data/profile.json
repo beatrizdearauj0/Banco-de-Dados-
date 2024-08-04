@@ -1,0 +1,117 @@
+{
+  "name": "Natanael Tiago",
+  "photo": "https://github.com/Tiago-Salvador/Web-Curriculoo/blob/main/assets/img/Foto%20Perfil.jpg?raw=true",
+  "job": "Desenvolvedor Júnior",
+  "location": "Natal - RN",
+  "phone": "(84) 99900-2317",
+  "email": "natanaeltiago2566@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Tiago-Salvador/Web-Curriculo/403767b7ed0ec16de47ec9b00f456000d96142a6/assets/img/icons/html.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Tiago-Salvador/Web-Curriculo/403767b7ed0ec16de47ec9b00f456000d96142a6/assets/img/icons/css.svg"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      }
+    ],
+    "softSkills": [
+      "Atendimento ao Cliente",
+      "Prospecção de Vendas",
+      "Gestão de Conflitos",
+      "Trabalho em Equipe",
+      "Resiliência",
+      "Organização",
+      "Criação, Desenvolvimento e Automação do WhatsApp com o Chat-Pro"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (intermediário)"    
+  ],
+  "education": [
+    {
+      "curso": "JavaScript Developer",
+      "duracao": "39 Horas",
+      "instituicao": "Digital Inovation One",
+      "logo_url": "https://github.com/Tiago-Salvador/Web-Curriculoo/blob/main/assets/img/icons/Logo-Dio-removebg-preview.png?raw=true",
+      "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/JavaScript%20Developer.jpg?raw=true"
+    },
+    {
+      "curso": "Smart Data Structures",
+      "duracao": "160 Horas",
+      "instituicao": "Faculdade Digital Descomplica",
+      "logo_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/icons/logo-descomplica.png?raw=true",
+      "certificado_url": "https://microcertificado.descomplica.com.br/e4915f238ee6a7d58dd652f548337c9eef81fd673460572c6a454a1ab87ccf18.png"
+    },
+    {
+      "curso": "DB Developer",
+      "duracao": "160 Horas",
+      "instituicao": "Faculdade Digital Descomplica",
+      "logo_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/icons/logo-descomplica.png?raw=true",
+      "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20DB%20Developer.jpg?raw=true"
+    },
+    {
+      "curso": "Object-Oriented Developer",
+      "duracao": "240 Horas",
+      "instituicao": "Faculdade Digital Descomplica",
+      "logo_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/icons/logo-descomplica.png?raw=true",
+      "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20Object-Oriented%20Developer.jpg?raw=true"
+    },
+    {
+      "curso": "Programação Básica",
+      "duracao": "160 Horas",
+      "instituicao": "Faculdade Digital Descomplica",
+      "logo_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/icons/logo-descomplica.png?raw=true",
+      "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20Programming%20Basics.jpg?raw=true"
+    },
+    {
+      "curso": "Arquitetura e Organização de Computadores",
+      "duracao": "240 Horas",
+      "instituicao": "Faculdade Digital Descomplica",
+      "logo_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/icons/logo-descomplica.png?raw=true",
+      "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores.jpg?raw=true"
+    }
+  ],
+
+  "professionalExperience": [
+    {
+      "name": "Engenharia do Corpo",
+      "position": "Consultor de Vendas",
+      "period": "2021 - até o momento",
+      "description": "💼 Com três anos de experiência em atendimento ao cliente, pós-vendas, prospecção e retenção de vendas, destaco-me pela minha facilidade de comunicação, criatividade e capacidade de trabalhar em equipe. Tenho habilidades avançadas em documentação com o pacote Office e sou especialista no uso do ChatGPT para criação, desenvolvimento e manutenção do Chat PRO, uma ferramenta de automação do WhatsApp.<br> 📊 No setor financeiro da empresa, aplico minha sólida experiência em administração e liderança, sempre focando na excelência e na melhoria contínua. Minha comunicação clara e empática garante a satisfação dos clientes, enquanto minha criatividade oferece soluções inovadoras para desafios diários.<br>🤝 Acredito que o sucesso é alcançado por meio do trabalho em equipe, promovendo um ambiente colaborativo e motivador. Estou sempre em busca de novas oportunidades para aprender e crescer, tanto profissional quanto pessoalmente.",
+      "logoUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/db/f4/0a/dbf40a28-3654-8f91-d0ec-36ed20886543/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/230x0w.webp"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "name": "Pokedex com API",
+      "url": "https://github.com/Tiago-Salvador/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Netflix Clone",
+      "url": "https://github.com/Tiago-Salvador/NetflixClone-Portifolio",
+      "github": true
+    }
+  ]
+}
