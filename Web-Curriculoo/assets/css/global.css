@@ -13,7 +13,7 @@ body, .background {
     min-height: 100vh; /* Garante que o body tenha no mínimo 100% da altura da viewport */
     background-color: black;
     color: white;
-    background-image: url('/assets/img/Background/tec-background.jpg');
+    background-image: url('./assets/img/Background/tec-background.jpg');
     background-size: cover; /* Cobrir todo o espaço disponível */
     background-position: center; /* Centralizar o background */
     background-repeat: no-repeat; /* Não repetir o background */
